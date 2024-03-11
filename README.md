@@ -1,1 +1,1 @@
-# L-gica-de-Programa-o---ADS
+# Logica-de-Programacao-ADS
