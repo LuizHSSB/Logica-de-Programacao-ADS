@@ -12,12 +12,12 @@ escreval("Digite um número e diremos se ele está no intervalo de 100 a 200")
 leia(n1)
 
 se (n1 >= 100) e (n1 <= 200) entao
-
-escreval("O número",n1, " está dentro do intervalo entre 100 e 200(incluso)")
+                                                                                 escreval("")
+escreval("O número",n1, " está dentro do intervalo entre 100 e 200!")
 
 senao
-
-escreval("O número",n1, " não está no intervalo entre 100 e 200(incluso)")
+                                                                                 escreval("")
+escreval("O número",n1, " não está no intervalo entre 100 e 200!")
 fimse
 
 Fimalgoritmo

@@ -4,7 +4,7 @@ Algoritmo "semnome"
 // Data atual  : 10/04/2024
 Var
 
-a,b,c : real
+a,b,c : inteiro
 
 Inicio
 
@@ -20,7 +20,7 @@ c <- a*b
 
 fimse
 fimse
-
+                                                                                 escreval("")
 escreval("Resultado = ",c)
 
 Fimalgoritmo

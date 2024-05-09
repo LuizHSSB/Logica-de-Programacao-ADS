@@ -4,73 +4,69 @@ Algoritmo "semnome"
 // Data atual  : 10/04/2024
 Var
 
-m1 : inteiro
+   n : inteiro
 
 Inicio
 
-escreval("Digite um número de 1 a 12 e diremos a qual mês ele corresponde:")
-leia(m1)
+   escreval("Digite um número de 1 a 12 e lhe diremos o mês correspondente:")
 
-se m1 = 1 entao
-escreval("Esse número corresponde ao mês de Janeiro")
-senao
+   leia(n)
 
-se m1 = 2 entao
-escreval("Esse número corresponde ao mês de Fevereiro")
-senao
+   escolha (n)
 
-se m1 = 3 entao
-escreval("Esse número corresponde ao mês de Março")
-senao
+   caso 1
+                                                                                 escreval("")
+      escreva("O número 1 corresponde ao mês de Janeiro!")
+   interrompa
+   caso 2
+                                                                                 escreval("")
+      escreva("O número 2 corresponde ao mês de Fevereiro!")
+   interrompa
+   caso 3
+                                                                                 escreval("")
+      escreva("O número 3 corresponde ao mês de Março!")
+   interrompa
+   caso 4
+                                                                                 escreval("")
+      escreva("O número 4 corresponde ao mês de Abril!")
+   interrompa
+   caso 5
+                                                                                 escreval("")
+      escreva("O número 5 corresponde ao mês de Maio!")
+   interrompa
+   caso 6
+                                                                                 escreval("")
+      escreva("O número 6 corresponde ao mês de Junho!")
+   interrompa
+   caso 7
+                                                                                 escreval("")
+      escreva("O número 7 corresponde ao mês de Julho!")
+   interrompa
+   caso 8
+                                                                                 escreval("")
+      escreva("O número 8 corresponde ao mês de Agosto!")
+   interrompa
+   caso 9
+                                                                                 escreval("")
+      escreva("O número 9 corresponde ao mês de Setembro!")
+   interrompa
+   caso 10
+                                                                                 escreval("")
+      escreva("O número 10 corresponde ao mês de Outubro!")
+   interrompa
+   caso 11
+                                                                                 escreval("")
+      escreva("O número 11 corresponde ao mês de Novembro!")
+   interrompa
+   caso 12
+                                                                                 escreval("")
+      escreva("O número 12 corresponde ao mês de Dezembro!")
+   interrompa
 
-se m1 = 4 entao
-escreval("Esse número corresponde ao mês de Abril")
-senao
+   outrocaso
+                                                                                 escreval("")
+      escreval("Esse número não corresponde a nenhum mês")
 
-se m1 = 5 entao
-escreval("Esse número corresponde ao mês de Maio")
-senao
+   fimEscolha
 
-se m1 = 6 entao
-escreval("Esse número corresponde ao mês de Junho")
-senao
-
-se m1 = 7 entao
-escreval("Esse número corresponde ao mês de Julho")
-senao
-
-se m1 = 8 entao
-escreval("Esse número corresponde ao mês de Agosto")
-senao
-
-se m1 = 9 entao
-escreval("Esse número corresponde ao mês de Setembro")
-senao
-
-se m1 = 10 entao
-escreval("Esse número corresponde ao mês de Outubro")
-senao
-
-se m1 = 11 entao
-escreval("Esse número corresponde ao mês de Novembro")
-senao
-
-se m1 = 12 entao
-escreval("Esse número corresponde ao mês de Dezembro")
-senao
-
-escreval("Esse número não corresponde a nenhum mês!")
-
-fimse
-fimse
-fimse
-fimse
-fimse
-fimse
-fimse
-fimse
-fimse
-fimse
-fimse
-fimse
 Fimalgoritmo

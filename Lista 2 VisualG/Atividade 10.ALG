@@ -4,7 +4,7 @@ Algoritmo "semnome"
 // Data atual  : 10/04/2024
 Var
 
-A,B,C,D : real
+A,B,C,D : inteiro
 
 Inicio
 

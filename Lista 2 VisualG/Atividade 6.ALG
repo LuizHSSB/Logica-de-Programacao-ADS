@@ -12,12 +12,12 @@ escreval("Digite um número entre 1 a 5")
 leia(n1)
 
 se (n1 >= 1) e (n1 <= 5) entao
-
+                                                                                 escreval("")
 escreval("O número",n1, " é válido!")
 
 senao
-
-escreval("O número",n1, " não é valido")
+                                                                                 escreval("")
+escreval("O número",n1, " não é válido")
 fimse
 
 Fimalgoritmo

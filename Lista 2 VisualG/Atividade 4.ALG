@@ -16,20 +16,20 @@ para contador <- 1 ate 2 faca
 fimpara
 
 se n[1] > n[2] entao
-
-escreval("O primeiro número é o maior e eles são diferentes.")
+                                                                                 escreval("")
+escreval(n[1]," é o maior e eles são diferentes.")
 
 fimse
 
   se n[1] < n[2] entao
-
-  escreval("O segundo número é o maior e eles são diferentes.")
+                                                                                 escreval("")
+  escreval(n[2]," é o maior e eles são diferentes.")
 
   fimse
 
     se (n[1] = n[2]) entao
-
-    escreval("Eles são iguais.")
+                                                                                 escreval("")
+    escreval("Os números são iguais.")
 
     fimse
 Fimalgoritmo
